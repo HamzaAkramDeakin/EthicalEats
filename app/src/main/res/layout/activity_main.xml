@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/halal_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/halal"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/halaltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/halal_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Welcome to the Halal Food Check Application"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/halaltext"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Check Halal"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_back"
+        app:backgroundTint="@color/yellow"
+        android:id="@+id/halalbtn"/>
+
+</RelativeLayout>

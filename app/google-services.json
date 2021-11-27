@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353758308298",
+    "project_id": "halal-a2f4e",
+    "storage_bucket": "halal-a2f4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353758308298:android:818ca628635cbc1bac1133",
+        "android_client_info": {
+          "package_name": "com.example.halalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353758308298-bvf0m628nlkevaju29cj0reh65j259sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLhMvm_hoyDoyJcJlcxiyalTL2I-9ZYU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353758308298-bvf0m628nlkevaju29cj0reh65j259sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
